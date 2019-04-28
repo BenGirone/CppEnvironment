@@ -1,0 +1,1 @@
+powershell "tools/downloadDocker.ps1" && "C:\Program Files\Git\bin\bash.exe" "%~dp0tools\docker_build.sh"
